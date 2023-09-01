@@ -1,10 +1,9 @@
 package com.nareum.learnspringframework.game;
 
 public class GameRunner {
-
-	private SuperContraGame game;
+	MarioGame game;
 	
-	public GameRunner(SuperContraGame game) {
+	public GameRunner(MarioGame game) {
 		this.game = game;
 		
 	}
