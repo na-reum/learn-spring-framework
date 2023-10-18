@@ -1,5 +1,11 @@
 package com.nareum.learnspringframework.game;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+
+@Component
+@Qualifier("SuperContraGameQualifiers")
 public class SuperContraGame implements GamingConsole{
 
 
